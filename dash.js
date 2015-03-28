@@ -182,13 +182,13 @@ function Bullet(destX, destY){
 		bullets[i].x += bullets[i].xVel;
 		bullets[i].y += bullets[i].yVel;
 
-		cleanUp();
 
 	}
 
 	drawAll();
 
-	
+	cleanUp();
+
 
 	
 
