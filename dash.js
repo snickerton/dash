@@ -136,16 +136,19 @@ function Bullet(destX, destY){
 
 			}
 
+
 		});	//end of action listener
 	
 
 	setInterval(function(){
 		
+	//FPS = 60;
+
+
 		ctx.fillStyle = "#000";
 		ctx.fillRect(0,0,cWidth, cHeight);
 
 
-		console.log("player position: " +player.x +", "+player.y);
 
 		
 		//side collision
